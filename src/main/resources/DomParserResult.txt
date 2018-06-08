@@ -1,0 +1,2 @@
+Person{name='Ivan', address='Minsk', cash=99999}
+Person{name='Bob', address='New-York', cash=10000}

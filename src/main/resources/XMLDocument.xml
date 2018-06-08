@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<catalog>
+    <notebook>
+        <person id = "1">
+            <name>John</name>
+            <address>Kyiv</address>
+            <cash>9999</cash>
+            <education>high</education>
+        </person>
+
+        <person person = "2">
+            <name>Ivan</name>
+            <address>Minsk</address>
+            <cash>99999</cash>
+            <education>absent</education>
+        </person>
+
+        <person person = "3">
+            <name>Bob</name>
+            <address>New-York</address>
+            <cash>10000</cash>
+            <education>primary</education>
+        </person>
+    </notebook>
+</catalog>
