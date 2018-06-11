@@ -4,10 +4,10 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class CreateFile {
+public class DomFile {
     public static void createFile(Person person) {
         try {
-            FileWriter writer = new FileWriter("src/main/resources/DomParserResult.txt", true);
+            FileWriter writer = new FileWriter("out/DomParserResult.txt", true);
             BufferedWriter bufferWriter = new BufferedWriter(writer);
             bufferWriter.write(String.valueOf(person) + "\r\n");
             bufferWriter.close();

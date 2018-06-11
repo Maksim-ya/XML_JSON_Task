@@ -20,7 +20,6 @@ public class DomParser {
             Document document = documentBuilder.parse(file);
 
             NodeList nList = document.getElementsByTagName("person");
-//            List<Person> personList = new ArrayList<Person>();
             for (int i = 0; i < nList.getLength(); i++) {
                 Node nNode = nList.item(i);
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {

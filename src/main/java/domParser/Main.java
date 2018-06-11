@@ -10,7 +10,7 @@ public class Main {
             Person person=personList.get(i);
             if (person.getCash()>=10000){
                 System.out.println(person);
-                new CreateFile().createFile(person);
+                new DomFile().createFile(person);
             }
         }
     }
